@@ -9,10 +9,10 @@ A machine learning project that predicts the **estimated delivery time** of a pr
 - ✅ **Complete ML pipeline** from preprocessing to prediction.
 - 🧹 **Feature extraction and normalization** using `StandardScaler`.
 - 🤖 **Evaluated multiple models**:
-  - XGBoost ✅ (best performing)
-  - CatBoost
+  - XGBoost 
+  - CatBoost(best performing)
   - Random Forest
-- 🧠 Final model: **XGBoost Regressor**
+- 🧠 Final model: **CatBoost Regressor**
 
 ---
 
@@ -44,7 +44,7 @@ A machine learning project that predicts the **estimated delivery time** of a pr
 4. **Model Training & Evaluation**  
    - Used Train/Test split  
    - Trained XGBoost, CatBoost, and Random Forest  
-   - Selected **XGBoost** based on RMSE and R²
+   - Selected **CatBoost** based on RMSE and R²
 
 5. **Prediction**  
    Predict delivery times on new input data.
@@ -55,9 +55,9 @@ A machine learning project that predicts the **estimated delivery time** of a pr
 
 | Metric         | Value (Example)  |
 |----------------|------------------|
-| R² Score       | 0.89             |
-| RMSE           | 1.42             |
-| MAE            | 1.10             |
+| R² Score       | 0.9985            |
+| RMSE           | 26.62          |
+| MAE            | 18.26            |
 
 > *Replace with your actual evaluation metrics after running the notebook.*
 
